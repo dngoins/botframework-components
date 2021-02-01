@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <PackageId>Microsoft.Bot.Components.Recognizers.Orchestrator</PackageId>
-    <PackageVersion>1.0.0-preview.3</PackageVersion>
+    <PackageVersion>1.0.0-preview.1</PackageVersion>
     <Description>Plugin component for Microsoft.Bot.Builder.Runtime to register Orchestrator adaptive recognizer.</Description>
     <Summary>Plugin component for Microsoft.Bot.Builder.Runtime to register Orchestrator adaptive recognizer.</Summary>
     <Company>Microsoft</Company>
