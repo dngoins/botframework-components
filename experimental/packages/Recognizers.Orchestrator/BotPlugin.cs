@@ -1,17 +1,15 @@
 ﻿// Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT License.
 
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.Bot.Builder;
 using Microsoft.Bot.Builder.AI.Orchestrator;
-
-[assembly: HostingStartup(typeof(Microsoft.Bot.Components.Recognizers.Orchestrator.HostingStartup))]
+using Microsoft.Bot.Builder.Runtime.Plugins;
 
 namespace Microsoft.Bot.Components.Recognizers.Orchestrator
 {
-    public class HostingStartup : IHostingStartup
+    public class BotPlugin : IBotPlugin
     {
-        public void Configure(IWebHostBuilder builder)
+        public void Load(IBotPluginLoadContext context)
         {
             ComponentRegistration.Add(new OrchestratorComponentRegistration());
         }

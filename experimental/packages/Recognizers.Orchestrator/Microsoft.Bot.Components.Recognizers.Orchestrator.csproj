@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <PackageId>Microsoft.Bot.Components.Recognizers.Orchestrator</PackageId>
-    <PackageVersion>1.0.0-preview.1</PackageVersion>
+    <PackageVersion>1.0.0-preview.2</PackageVersion>
     <Description>Plugin component for Microsoft.Bot.Builder.Runtime to register Orchestrator adaptive recognizer.</Description>
     <Summary>Plugin component for Microsoft.Bot.Builder.Runtime to register Orchestrator adaptive recognizer.</Summary>
     <Company>Microsoft</Company>
@@ -13,9 +13,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.2.0" />
     <PackageReference Include="Microsoft.Bot.Builder.AI.Orchestrator" Version="4.12.0-daily.preview.20210126.206273.e467c25" />
-    <PackageReference Include="Microsoft.Bot.Builder.Runtime" Version="4.12.0-daily.preview.20210126.206273.e467c25" />
+    <PackageReference Include="Microsoft.Bot.Builder.Runtime.Plugins" Version="4.12.0-daily.preview.20210126.206273.e467c25" />
   </ItemGroup>
 
 </Project>
